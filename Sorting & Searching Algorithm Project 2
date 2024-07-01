@@ -1,0 +1,8 @@
+Sure, let's implement the Insertion Sort algorithm in JavaScript. Here’s a step-by-step explanation followed by the code implementation:
+
+Insertion Sort Algorithm Steps
+Initialize: Start from the second element (index 1) and assume the first element (index 0) is already sorted.
+Pick Element: Pick the next element (arr[i]) and find its correct position in the sorted part of the array (from 0 to i-1).
+Shift Elements: Shift all the elements in the sorted part of the array that are greater than the picked element to one position to the right.
+Insert Element: Insert the picked element into its correct position.
+Repeat: Repeat steps 2-4 until the entire array is sorted.
